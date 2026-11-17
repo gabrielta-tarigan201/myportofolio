@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GabrielTa Tarigan — AI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --primary: #10b981;
+            --text-main: #e5e5e5;
+            --text-muted: #a3a3a3;
+            --border: #2a2a2a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .hero .role {
+            color: var(--primary);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+
+        .social-links {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            color: var(--text-muted);
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        /* Skills List */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--text-main);
+            transition: border-color 0.3s;
+        }
+
+        .skill-tag:hover {
+            border-color: var(--primary);
+        }
+
+        /* Project Link */
+        .project-link {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--bg);
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: opacity 0.3s;
+        }
+
+        .project-link:hover {
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <h1>GabrielTa Tarigan</h1>
+            <div class="role">AI Engineer & Vibe Coder</div>
+            <p>Saya bukan sekadar penulis kode. Saya adalah pembangun sistem yang memahami cara kerja aplikasi, memecahkan masalah, dan memanfaatkan AI untuk menciptakan solusi nyata.</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/gabrielta-tarigan201" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gabrielta-tarigan-754057393" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <div class="section">
+            <div class="section-title">Tentang Saya</div>
+            <div class="card">
+                <p>Saya adalah seorang <strong>AI Engineer</strong> dan <strong>Vibe Coder</strong>. Saya tidak mengklaim diri sebagai "tukang coding" tradisional yang menghafal sintaks. Sebaliknya, saya mahir dalam <strong>memahami cara kerja sistem aplikasi</strong> dari hulu ke hilir, melakukan <strong>problem solving</strong> saat menemui kebuntuan, dan memanfaatkan AI sebagai *co-pilot* untuk membangun produk fungsional dengan cepat dan efisien.</p>
+            </div>
+        </div>
+
+        <!-- KEahlian SECTION -->
+        <div class="section">
+            <div class="section-title">Keahlian Utama</div>
+            <div class="skills-list">
+                <span class="skill-tag">Vibe Coding</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">AI Engineering</span>
+                <span class="skill-tag">System Architecture</span>
+                <span class="skill-tag">LLM Integration</span>
+                <span class="skill-tag">RAG (Retrieval-Augmented Generation)</span>
+                <span class="skill-tag">Deployment & Server Management</span>
+            </div>
+        </div>
+
+        <!-- PRODUK SECTION -->
+        <div class="section">
+            <div class="section-title">Produk Unggulan</div>
+            <div class="card">
+                <h3>Gafura AI — Asisten Cerdas Lokal</h3>
+                <p>Gafura AI adalah asisten cerdas hasil <strong>fine-tuning</strong> dan pengembangan sistem mandiri. Gafura tidak sepenuhnya bergantung pada AI pihak ketiga (seperti OpenAI) dan dirancang untuk berjalan secara lokal di server sendiri. Fokus utamanya adalah <strong>privasi pengguna</strong>, <strong>responsif</strong>, dan <strong>aksesibilitas gratis</strong> bagi siapa saja.</p>
+                <p style="margin-top: 10px; font-size: 14px; color: var(--primary);">Dibangun dengan: Python, Ollama (Qwen), Nginx, SQLite, dan Vibe Coding.</p>
+                <a href="https://ai.gafura.biz.id" target="_blank" class="project-link">
+                    <i class="fas fa-external-link-alt"></i> Kunjungi Gafura AI
+                </a>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 GabrielTa Tarigan. Dibangun dengan AI dan Problem Solving.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
